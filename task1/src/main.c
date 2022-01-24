@@ -30,7 +30,7 @@ static struct gpio_callback button_cb_data;
 static void lux_(void)
 {
 	int ret;
-	uint8_t buf[1];
+	uint16_t buf[1];
 	uint16_t raw;
 	uint16_t result, exponent;
         float lux;
